@@ -3,6 +3,18 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [1.2.0](https://github.com/anireact/zc/compare/v1.0.0...v1.2.0) (2019-04-15)
+
+
+### Features
+
+* **lerna:** Sign commits. ([6813f8b](https://github.com/anireact/zc/commit/6813f8b))
+* **zc:** Disable explicit Prettier configuration. ([4741a1b](https://github.com/anireact/zc/commit/4741a1b))
+
+
+
+
+
 # [1.1.0](https://github.com/anireact/zc/compare/v1.0.0...v1.1.0) (2019-04-15)
 
 

@@ -1,4 +1,28 @@
 {
-    "extends": "@anireact/lerna",
-    "version": "1.1.0"
+    "npmClient": "yarn",
+    "useWorkspaces": true,
+    "command": {
+        "version": {
+            "githubRelease": true,
+            "ignoreChanges": [
+                "dist/",
+                "coverage/",
+                "temp/",
+                "var/",
+                ".eslintignore",
+                ".eslintrc.js",
+                "webpack.config.js.js",
+                "rollup.config.js.js",
+                "tsconfig.json",
+                "*.spec.ts",
+                "*.tsbuildinfo",
+                "*.log"
+            ],
+            "conventionalCommits": true,
+            "message": "chore: Published %s.",
+            "signGitCommit": true,
+            "signGitTag": true
+        }
+    },
+    "version": "1.2.0"
 }
