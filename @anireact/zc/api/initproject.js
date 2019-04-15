@@ -21,7 +21,7 @@ const getUser = ({ user }, { users }) => user || autocomplete('GitHub user/org n
 const getRepo = ({ repo }) => repo || input('GitHub repo (w/o user/org name):');
 
 const getScopes = ({ scopes: s }, { scopes }) =>
-    ifempty(s, () => input('Scopes of packages:', scopes.join(' ')).then(scopes.split(/ +/gu)));
+    ifempty(s, () => input('Scopes of packages:', scopes.join(' ')).then(scopes => scopes.split(/ +/gu)));
 
 const getAuthor = ({ author: a }, { author }) => a || input('Project author:', author);
 const getLicense = ({ license: l }, { licenses = [] }) => l || autocomplete('License:', ifempty(licenses, () => spdx));
@@ -118,7 +118,7 @@ const finish = async (config, manifest) => {
 
 module.exports = async argv => {
     const config = await configure(argv);
-    const { directory } = config;
+    const { directory, scopes } = config;
     const dest = (...xs) => resolve(directory, ...xs);
 
     print(`Initializing project...`, 'yellow', 'bold.yellowBright', 1);
@@ -133,16 +133,18 @@ module.exports = async argv => {
     await Promise.all([
         pretty(dest('package.json'), manifest), //          ← `package.json`.
         pretty(dest('README.md'), createReadme(config)), // ← `README.md`.
-        pretty(dest('lerna.json'), createLerna(config)), // ← `lerna.json`.
         asset('common.ignore', dest('.eslintignore')), //   ← `.eslintignore`.
         asset('common.ignore', dest('.gitignore')), //      ← `.gitignore`.
         asset('gitattributes', dest('.gitattributes')), //  ← `.gitattributes`.
         asset('editorconfig', dest('.editorconfig')), //    ← `.editorconfig`.
         asset('husky.js', dest('.huskyrc.js')), //          ← `.huskyrc.js`.
         asset('babel.js', dest('babel.config.js')), //      ← `babel.config.js`.
+
+        ...scopes.map(scope => mkdir(dest(`@${scope}`))),
     ]);
 
     await finish(config, manifest);
+    await pretty(dest('lerna.json'), createLerna(config)); // ← Create `lerna.json`.
 
-    print('Then create `LICENSE` file in the project root.');
+    print(' Then create `LICENSE` file in the project root. ');
 };
