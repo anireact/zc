@@ -32,25 +32,16 @@ yarn global add @anireact/zc
         -   `styled-jsx`.
 -   EditorConfig:
 
-    ##### Common options
-
-    | Option                   | Value   |
-    | :----------------------- | :------ |
-    | Indent style             | `space` |
-    | Indent size              | `4`     |
-    | Tab width                | `4`     |
-    | End of line              | `lf`    |
-    | Encoding                 | `utf-8` |
-    | Trim trailing whitespace | `true`  |
-    | Insert final newline     | `true`  |
-    | Max line length          | `120`   |
-
-    ##### Overrides for markdown
-
-    | Option                   | Value   |
-    | :----------------------- | :------ |
-    | Trim trailing whitespace | `false` |
-    | Max line length          | `80`    |
+    | Option                   | All files | Markdown |
+    | :----------------------- | :-------- | :------- |
+    | Indent style             | `space`   |          |
+    | Indent size              | `4`       |          |
+    | Tab width                | `4`       |          |
+    | End of line              | `lf`      |          |
+    | Encoding                 | `utf-8`   |          |
+    | Insert final newline     | `true`    |          |
+    | Trim trailing whitespace | `true`    | `false`  |
+    | Max line length          | `120`     | `80`     |
 
 -   ESLint:
     -   Both FP- and OOP-tolerant config.
