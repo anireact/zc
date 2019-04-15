@@ -252,7 +252,7 @@ module.exports = {
         // region
         'babel/no-unused-expressions': error,
 
-        'prettier/prettier': error,
+        'prettier/prettier': [error, require('@anireact/prettier-config'), { usePrettierrc: false }], // eslint-disable-line global-require
 
         'unicorn/catch-error-name': [error, { name: 'error' }],
         'unicorn/no-process-exit': error,

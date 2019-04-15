@@ -2,6 +2,7 @@
     "author": "Marina Miyaoka <miyaokamarina@gmail.com> (https://twitter.com/miyaokamarina)",
     "bugs": "https://github.com/anireact/zc/issues?q=is:issue+label:@anireact/eslint-config",
     "dependencies": {
+        "@anireact/prettier-config": "^1.0.0",
         "@babel/core": "^7.4.3",
         "@typescript-eslint/eslint-plugin": "^1.6.0",
         "@typescript-eslint/eslint-plugin-tslint": "^1.6.0",
