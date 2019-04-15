@@ -122,15 +122,14 @@ module.exports = async argv => {
     const manifest = createManifest(config);
 
     await Promise.all([
-        pretty(dest('package.json'), manifest), //            ← `package.json`.
-        pretty(dest('README.md'), createReadme(config)), //   ← `README.md`.
-        asset('common.ignore', dest('.eslintignore')), //     ← `.eslintignore`.
-        asset('prettier.ignore', dest('.prettierignore')), // ← `.prettierignore`.
-        asset('common.ignore', dest('.gitignore')), //        ← `.gitignore`.
-        asset('gitattributes', dest('.gitattributes')), //    ← `.gitattributes`.
-        asset('editorconfig', dest('.editorconfig')), //      ← `.editorconfig`.
-        asset('husky.js', dest('.huskyrc.js')), //            ← `.huskyrc.js`.
-        asset('babel.js', dest('babel.config.js')), //        ← `babel.config.js`.
+        pretty(dest('package.json'), manifest), //          ← `package.json`.
+        pretty(dest('README.md'), createReadme(config)), // ← `README.md`.
+        asset('common.ignore', dest('.eslintignore')), //   ← `.eslintignore`.
+        asset('common.ignore', dest('.gitignore')), //      ← `.gitignore`.
+        asset('gitattributes', dest('.gitattributes')), //  ← `.gitattributes`.
+        asset('editorconfig', dest('.editorconfig')), //    ← `.editorconfig`.
+        asset('husky.js', dest('.huskyrc.js')), //          ← `.huskyrc.js`.
+        asset('babel.js', dest('babel.config.js')), //      ← `babel.config.js`.
     ]);
 
     await finish(config, manifest);

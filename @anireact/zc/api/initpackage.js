@@ -148,7 +148,6 @@ module.exports = async argv => {
         asset('npm.ignore', dest('.npmignore')), //                            ← `.npmignore`.
         build && asset('typescript.json', dest('tsconfig.json')), //           ← `tsconfig.json`.
         build && asset('common.ignore', dest('.eslintignore')), //             ← `.eslintignore`.
-        build && asset('common.ignore', dest('.prettierignore')), //           ← `.prettierignore`.
         build && asset('eslint.js', dest('.eslintrc.js')), //                  ← `.eslintrc.js`.
         copy(resolve(root, 'LICENSE'), dest('LICENSE')), //                    ← `LICENSE`.
     ]);

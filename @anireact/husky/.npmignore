@@ -4,7 +4,6 @@ temp/
 var/
 
 .eslintignore
-.prettierignore
 
 .eslintrc.js
 .babelrc.js

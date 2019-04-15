@@ -10,7 +10,6 @@ module.exports = {
                 'temp/',
                 'var/',
                 '.eslintignore',
-                '.prettierignore',
                 '.eslintrc.js',
                 'webpack.config.js.js',
                 'rollup.config.js.js',

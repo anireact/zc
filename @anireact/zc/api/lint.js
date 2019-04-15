@@ -13,8 +13,20 @@ const eslint = {
 };
 
 const prettier = {
-    package: ['./**/*.{css,less,scss,html,json,md}'],
-    project: ['./*.{css,less,scss,html,json,md}'],
+    package: [
+        '--config',
+        require.resolve('@anireact/prettier-config'),
+        '--ignore-path',
+        resolve(__dirname, '../assets/prettier.ignore'),
+        './**/*.{css,less,scss,html,json,md}',
+    ],
+    project: [
+        '--config',
+        require.resolve('@anireact/prettier-config'),
+        '--ignore-path',
+        resolve(__dirname, '../assets/prettier.ignore'),
+        './*.{css,less,scss,html,json,md}',
+    ],
 
     lint: ['--check'],
     fix: ['--write'],
