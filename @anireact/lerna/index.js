@@ -21,6 +21,8 @@ module.exports = {
             ],
             conventionalCommits: true,
             message: 'chore: Published %s.',
+            signGitCommit: true,
+            signGitTag: true,
         },
     },
 };
