@@ -1,0 +1,20 @@
+{
+    "author": "Marina Miyaoka <miyaokamarina@gmail.com> (https://twitter.com/miyaokamarina)",
+    "bugs": "https://github.com/anireact/zc/issues?q=is:issue+label:@anireact/lerna",
+    "dependencies": {
+        "lerna": "^3.13.2"
+    },
+    "description": "Lerna config.",
+    "devDependencies": {},
+    "homepage": "https://github.com/anireact/zc/tree/master/@anireact/lerna",
+    "license": "MIT",
+    "main": "index.js",
+    "name": "@anireact/lerna",
+    "optionalDependencies": {},
+    "peerDependencies": {},
+    "publishConfig": {
+        "access": "public"
+    },
+    "repository": "anireact/zc",
+    "version": "1.0.0-wip.28"
+}

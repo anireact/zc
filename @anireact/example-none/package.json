@@ -1,0 +1,18 @@
+{
+    "author": "Marina Miyaoka <miyaokamarina@gmail.com> (https://twitter.com/miyaokamarina)",
+    "bugs": "https://github.com/anireact/zc/issues?q=is:issue+label:@anireact/example-none",
+    "dependencies": {},
+    "description": "Example package without build step.",
+    "devDependencies": {
+        "@anireact/zc": "^1.0.0-wip.28"
+    },
+    "homepage": "https://github.com/anireact/zc/tree/master/@anireact/example-none",
+    "license": "MIT",
+    "main": "index.js",
+    "name": "@anireact/example-none",
+    "optionalDependencies": {},
+    "peerDependencies": {},
+    "private": true,
+    "repository": "anireact/zc",
+    "version": "1.0.0-wip.28"
+}

@@ -1,0 +1,40 @@
+##################
+# IDE & OS trash #
+##################
+
+### IntelliJ IDEA
+.idea/
+*.iml
+
+### Visual Studio Code
+.vscode/
+
+### Cloud9
+.c9
+
+###################
+# Ecosystem trash #
+###################
+
+### NodeJS
+node_modules/
+
+### TypeScript
+
+*.tsbuildinfo
+
+### ESLint
+
+!.eslintrc.js
+
+### Etc.
+*.log
+
+#################
+# Project trash #
+#################
+
+coverage/
+dist/
+temp/
+var/

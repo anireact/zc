@@ -1,0 +1,18 @@
+{
+    "author": "Marina Miyaoka <miyaokamarina@gmail.com> (https://twitter.com/miyaokamarina)",
+    "bugs": "https://github.com/anireact/zc/issues?q=is:issue+label:@anireact/prettier-config",
+    "dependencies": {},
+    "description": "Prettier config.",
+    "devDependencies": {},
+    "homepage": "https://github.com/anireact/zc/tree/master/@anireact/prettier-config",
+    "license": "MIT",
+    "main": "index.js",
+    "name": "@anireact/prettier-config",
+    "optionalDependencies": {},
+    "peerDependencies": {},
+    "publishConfig": {
+        "access": "public"
+    },
+    "repository": "anireact/zc",
+    "version": "1.0.0-wip.28"
+}

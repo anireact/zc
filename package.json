@@ -1,0 +1,30 @@
+{
+    "author": "Marina Miyaoka <miyaokamarina@gmail.com> (https://twitter.com/miyaokamarina)",
+    "license": "MIT",
+    "private": true,
+    "repository": "anireact/zc",
+    "workspaces": [
+        "@anireact/*"
+    ],
+    "browserslist": [
+        "extends @anireact/browserslist-config"
+    ],
+    "eslintConfig": {
+        "extends": "@anireact",
+        "parser": "babel-eslint"
+    },
+    "lerna": {
+        "extends": "@anireact/lerna",
+        "version": "1.0.0-wip.28"
+    },
+    "prettier": "@anireact/prettier-config",
+    "zc": {
+        "scopes": [
+            "anireact"
+        ],
+        "private": false
+    },
+    "devDependencies": {
+        "@anireact/zc": "^1.0.0-wip.28"
+    }
+}

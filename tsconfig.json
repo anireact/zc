@@ -1,0 +1,8 @@
+{
+    "references": [
+        { "path": "@anireact/example-babel" },
+        { "path": "@anireact/example-dependency" },
+        { "path": "@anireact/example-rollup" },
+        { "path": "@anireact/example-webpack" }
+    ]
+}

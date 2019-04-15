@@ -1,0 +1,25 @@
+{
+    "author": "Marina Miyaoka <miyaokamarina@gmail.com> (https://twitter.com/miyaokamarina)",
+    "bugs": "https://github.com/anireact/zc/issues?q=is:issue+label:@anireact/husky",
+    "dependencies": {
+        "@commitlint/cli": "^7.5.2",
+        "@commitlint/config-conventional": "^7.5.0",
+        "@commitlint/config-lerna-scopes": "^7.5.1",
+        "command-join": "^2.0.0",
+        "husky": "^1.3.1",
+        "lerna": "^3.13.2"
+    },
+    "description": "Husky config.",
+    "devDependencies": {},
+    "homepage": "https://github.com/anireact/zc/tree/master/@anireact/husky",
+    "license": "MIT",
+    "main": "index.js",
+    "name": "@anireact/husky",
+    "optionalDependencies": {},
+    "peerDependencies": {},
+    "publishConfig": {
+        "access": "public"
+    },
+    "repository": "anireact/zc",
+    "version": "1.0.0-wip.28"
+}

@@ -1,0 +1,47 @@
+* text=auto eol=lf
+
+*.css           text
+*.html          text diff=html
+*.js            text
+*.json          text
+*.jsx           text
+*.less          text
+*.md            text
+*.sh            text
+*.svg           text
+*.ts            text
+*.tsx           text
+*.txt           text
+*.xml           text
+
+.browserslistrc text
+.editorconfig   text
+.gitattributes  text
+.gitconfig      text
+.gitignore      text
+.npmignore      text
+*.lock          text
+
+*.eot           binary
+*.gif           binary
+*.ico           binary
+*.jpeg          binary
+*.midi          binary
+*.mp3           binary
+*.mp4           binary
+*.ogg           binary
+*.otf           binary
+*.pdf           binary
+*.png           binary
+*.svgz          binary
+*.ttf           binary
+*.webm          binary
+*.webp          binary
+*.woff          binary
+*.woff2         binary
+
+*.7z            binary
+*.br            binary
+*.gz            binary
+*.tar           binary
+*.zip           binary
