@@ -13,10 +13,6 @@
         "extends": "@anireact",
         "parser": "babel-eslint"
     },
-    "lerna": {
-        "extends": "@anireact/lerna",
-        "version": "1.0.0"
-    },
     "prettier": "@anireact/prettier-config",
     "zc": {
         "scopes": [

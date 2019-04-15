@@ -89,6 +89,15 @@ const createReadme = config => {
     `;
 };
 
+const createLerna = config => {
+    const { version } = config;
+
+    return {
+        extends: '@anireact/lerna',
+        version,
+    };
+};
+
 const finish = async (config, manifest) => {
     const { directory, fullname, version } = config;
 
@@ -124,6 +133,7 @@ module.exports = async argv => {
     await Promise.all([
         pretty(dest('package.json'), manifest), //          ← `package.json`.
         pretty(dest('README.md'), createReadme(config)), // ← `README.md`.
+        pretty(dest('lerna.json'), createLerna(config)), // ← `lerna.json`.
         asset('common.ignore', dest('.eslintignore')), //   ← `.eslintignore`.
         asset('common.ignore', dest('.gitignore')), //      ← `.gitignore`.
         asset('gitattributes', dest('.gitattributes')), //  ← `.gitattributes`.
