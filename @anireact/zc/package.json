@@ -5,13 +5,13 @@
     },
     "bugs": "https://github.com/anireact/zc/issues?q=is:issue+label:@anireact/zc",
     "dependencies": {
-        "@anireact/babel-preset": "^1.0.0-wip.28",
-        "@anireact/browserslist-config": "^1.0.0-wip.28",
-        "@anireact/eslint-config": "^1.0.0-wip.28",
-        "@anireact/husky": "^1.0.0-wip.28",
-        "@anireact/lerna": "^1.0.0-wip.28",
-        "@anireact/prettier-config": "^1.0.0-wip.28",
-        "@anireact/typescript": "^1.0.0-wip.28",
+        "@anireact/babel-preset": "^1.0.0",
+        "@anireact/browserslist-config": "^1.0.0",
+        "@anireact/eslint-config": "^1.0.0",
+        "@anireact/husky": "^1.0.0",
+        "@anireact/lerna": "^1.0.0",
+        "@anireact/prettier-config": "^1.0.0",
+        "@anireact/typescript": "^1.0.0",
         "@babel/cli": "^7.4.3",
         "@babel/core": "^7.4.3",
         "@gfx/zopfli": "^1.0.11",
@@ -53,16 +53,13 @@
         "yarn": "^1.15.2"
     },
     "description": "Zero-config monorepo toolchain.",
-    "devDependencies": {},
     "homepage": "https://github.com/anireact/zc/tree/master/@anireact/zc",
     "license": "MIT",
     "main": "index.js",
     "name": "@anireact/zc",
-    "optionalDependencies": {},
-    "peerDependencies": {},
     "publishConfig": {
         "access": "public"
     },
     "repository": "anireact/zc",
-    "version": "1.0.0-wip.28"
+    "version": "1.0.0"
 }

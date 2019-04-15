@@ -7,21 +7,19 @@
     },
     "description": "Example package with Babel CLI build.",
     "devDependencies": {
-        "@anireact/zc": "^1.0.0-wip.28"
+        "@anireact/zc": "^1.0.0"
     },
     "homepage": "https://github.com/anireact/zc/tree/master/@anireact/example-babel",
     "license": "MIT",
     "main": "dist/index.js",
     "name": "@anireact/example-babel",
-    "optionalDependencies": {},
-    "peerDependencies": {},
     "private": true,
     "repository": "anireact/zc",
     "scripts": {
         "prepublishOnly": "yarn --silent zc clean && yarn --silent zc build"
     },
     "types": "dist/index.d.ts",
-    "version": "1.0.0-wip.28",
+    "version": "1.0.0",
     "zc": {
         "build": "babel"
     }

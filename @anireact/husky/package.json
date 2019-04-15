@@ -10,16 +10,13 @@
         "lerna": "^3.13.2"
     },
     "description": "Husky config.",
-    "devDependencies": {},
     "homepage": "https://github.com/anireact/zc/tree/master/@anireact/husky",
     "license": "MIT",
     "main": "index.js",
     "name": "@anireact/husky",
-    "optionalDependencies": {},
-    "peerDependencies": {},
     "publishConfig": {
         "access": "public"
     },
     "repository": "anireact/zc",
-    "version": "1.0.0-wip.28"
+    "version": "1.0.0"
 }

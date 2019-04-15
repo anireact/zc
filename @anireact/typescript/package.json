@@ -1,20 +1,16 @@
 {
     "author": "Marina Miyaoka <miyaokamarina@gmail.com> (https://twitter.com/miyaokamarina)",
     "bugs": "https://github.com/anireact/zc/issues?q=is:issue+label:@anireact/typescript",
-    "dependencies": {},
     "description": "TypeScript config.",
-    "devDependencies": {},
     "homepage": "https://github.com/anireact/zc/tree/master/@anireact/typescript",
     "license": "MIT",
     "main": "index.json",
     "name": "@anireact/typescript",
-    "optionalDependencies": {},
-    "peerDependencies": {},
     "publishConfig": {
         "access": "public"
     },
     "repository": "anireact/zc",
-    "version": "1.0.0-wip.28",
+    "version": "1.0.0",
     "files": [
         "index.json"
     ],

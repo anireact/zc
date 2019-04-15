@@ -2,28 +2,26 @@
     "author": "Marina Miyaoka <miyaokamarina@gmail.com> (https://twitter.com/miyaokamarina)",
     "bugs": "https://github.com/anireact/zc/issues?q=is:issue+label:@anireact/example-rollup",
     "dependencies": {
-        "@anireact/example-dependency": "^1.0.0-wip.28",
+        "@anireact/example-dependency": "^1.0.0",
         "@babel/runtime-corejs3": "^7.4.3",
         "core-js": "^3.0.1"
     },
     "description": "Example library with Rollup build.",
     "devDependencies": {
-        "@anireact/zc": "^1.0.0-wip.28"
+        "@anireact/zc": "^1.0.0"
     },
     "homepage": "https://github.com/anireact/zc/tree/master/@anireact/example-rollup",
     "license": "MIT",
     "main": "dist/index.cjs.js",
     "module": "dist/index.esm.js",
     "name": "@anireact/example-rollup",
-    "optionalDependencies": {},
-    "peerDependencies": {},
     "private": true,
     "repository": "anireact/zc",
     "scripts": {
         "prepublishOnly": "yarn --silent zc clean && yarn --silent zc build"
     },
     "types": "dist/index.d.ts",
-    "version": "1.0.0-wip.28",
+    "version": "1.0.0",
     "zc": {
         "build": "rollup"
     }

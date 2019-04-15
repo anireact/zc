@@ -7,22 +7,20 @@
     },
     "description": "Another library with Rollup build.",
     "devDependencies": {
-        "@anireact/zc": "^1.0.0-wip.28"
+        "@anireact/zc": "^1.0.0"
     },
     "homepage": "https://github.com/anireact/zc/tree/master/@anireact/example-dependency",
     "license": "MIT",
     "main": "dist/index.cjs.js",
     "module": "dist/index.esm.js",
     "name": "@anireact/example-dependency",
-    "optionalDependencies": {},
-    "peerDependencies": {},
     "private": true,
     "repository": "anireact/zc",
     "scripts": {
         "prepublishOnly": "yarn --silent zc clean && yarn --silent zc build"
     },
     "types": "dist/index.d.ts",
-    "version": "1.0.0-wip.28",
+    "version": "1.0.0",
     "zc": {
         "build": "rollup"
     }

@@ -5,16 +5,13 @@
         "eslint": "^5.16.0"
     },
     "description": "Custom ESLint rules.",
-    "devDependencies": {},
     "homepage": "https://github.com/anireact/zc/tree/master/@anireact/eslint-plugin",
     "license": "MIT",
     "main": "index.js",
     "name": "@anireact/eslint-plugin",
-    "optionalDependencies": {},
-    "peerDependencies": {},
     "publishConfig": {
         "access": "public"
     },
     "repository": "anireact/zc",
-    "version": "1.0.0-wip.28"
+    "version": "1.0.0"
 }

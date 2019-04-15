@@ -1,30 +1,27 @@
 {
-    "author": "Marina Miyaoka <miyaokamarina@gmail.com> (https://twitter.com/miyaokamarina)",
-    "license": "MIT",
-    "private": true,
-    "repository": "anireact/zc",
-    "workspaces": [
-        "@anireact/*"
-    ],
-    "browserslist": [
-        "extends @anireact/browserslist-config"
-    ],
-    "eslintConfig": {
-        "extends": "@anireact",
-        "parser": "babel-eslint"
+    "npmClient": "yarn",
+    "useWorkspaces": true,
+    "command": {
+        "version": {
+            "githubRelease": false,
+            "ignoreChanges": [
+                "dist/",
+                "coverage/",
+                "temp/",
+                "var/",
+                ".eslintignore",
+                ".prettierignore",
+                ".eslintrc.js",
+                "webpack.config.js.js",
+                "rollup.config.js.js",
+                "tsconfig.json",
+                "*.spec.ts",
+                "*.tsbuildinfo",
+                "*.log"
+            ],
+            "conventionalCommits": true,
+            "message": "chore: Published %s."
+        }
     },
-    "lerna": {
-        "extends": "@anireact/lerna",
-        "version": "1.0.0-wip.28"
-    },
-    "prettier": "@anireact/prettier-config",
-    "zc": {
-        "scopes": [
-            "anireact"
-        ],
-        "private": false
-    },
-    "devDependencies": {
-        "@anireact/zc": "^1.0.0-wip.28"
-    }
+    "version": "1.0.0"
 }
