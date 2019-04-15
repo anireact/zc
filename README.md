@@ -98,7 +98,7 @@ module.exports = {
 
 Project config:
 
-```json
+```jsonc
 // Root `package.json`.
 {
     // ...other fields
@@ -118,7 +118,7 @@ Project config:
 
 Package config:
 
-```json
+```jsonc
 // Package’s `package.json`.
 {
     "zc": {
