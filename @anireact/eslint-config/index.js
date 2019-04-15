@@ -399,12 +399,12 @@ module.exports = {
             error,
             {
                 patterns: [
-                    { test: /\bTODO:/u, name: 'TODO' },
-                    { test: /\bFIX(?:IT|ME)?:/u, name: 'FIXME' },
-                    { test: /\bBUG:/u, name: 'BUG' },
-                    { test: /\bCRIT(?:ICAL)?:/u, name: 'CRITICAL' },
-                    { test: /\bASAP:/u, name: 'ASAP' },
-                    { test: /\bBLOCK(?:ER)?:/u, name: 'BLOCKER' },
+                    { flags: 'iu', test: /\bTODO/iu, name: 'TODO' },
+                    { flags: 'iu', test: /\bFIX(?:IT|ME)?/iu, name: 'FIXME' },
+                    { flags: 'iu', test: /\bBUG/iu, name: 'BUG' },
+                    { flags: 'iu', test: /\bCRIT(?:ICAL)?/iu, name: 'CRITICAL' },
+                    { flags: 'iu', test: /\bASAP/iu, name: 'ASAP' },
+                    { flags: 'iu', test: /\bBLOCK(?:ER)?/iu, name: 'BLOCKER' },
                 ],
             },
         ],
