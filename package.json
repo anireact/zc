@@ -21,6 +21,6 @@
         "private": false
     },
     "devDependencies": {
-        "@anireact/zc": "^1.2.0"
+        "@anireact/zc": "^1.2.1"
     }
 }
