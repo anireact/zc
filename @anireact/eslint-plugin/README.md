@@ -3,7 +3,7 @@
 > Custom ESLint rules.
 
 ```bash
-yarn add @anireact/eslint-plugin
+yarn add -D @anireact/eslint-plugin
 ```
 
 ## Rules
@@ -12,13 +12,13 @@ yarn add @anireact/eslint-plugin
 
 ```javascript
 module.exports = {
-    ...etc,
+    ...other,
     rules: {
-        ...etc,
+        ...other.rules,
         '@anireact/no-todo': [
-            error,
+            'error',
             {
-                patterns: [{ test: /\bTODO:/, flags: 'iu', name: 'TODO' }],
+                patterns: [{ test: /\bTODO\b/, flags: 'u', name: 'TODO' }],
             },
         ],
     },
@@ -26,11 +26,13 @@ module.exports = {
 ```
 
 ```javascript
-// TODO: Fail.
-// Todo: Also fail.
+// Invalid:
+// TODO: Description.
+// TODO
 
-// FUTURE: Pass.
-// Future: Also pass.
+// Valid:
+// FUTURE: Description.
+// Todo: future versions of this plugin will be able to ban malformed todo-comments.
 ```
 
 ## License
