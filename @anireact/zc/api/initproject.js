@@ -108,6 +108,7 @@ const finish = async (config, manifest) => {
     await run('yarn', []);
 
     await pretty(dest('package.json'), { ...manifest, lerna: { extends: '@anireact/lerna', version } });
+    await pretty(dest('lerna.json'), createLerna(config)); // ← Create `lerna.json`.
 
     print(' Initializing Git... ', 'red', 'bold.redBright');
     await run('git', ['init']);
@@ -144,7 +145,6 @@ module.exports = async argv => {
     ]);
 
     await finish(config, manifest);
-    await pretty(dest('lerna.json'), createLerna(config)); // ← Create `lerna.json`.
 
     print(' Then create `LICENSE` file in the project root. ');
 };
