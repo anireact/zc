@@ -3,7 +3,16 @@
 > Prettier config.
 
 ```
-yarn add @anireact/prettier-config
+yarn add -D @anireact/prettier-config
+```
+
+`package.json`:
+
+```jsonc
+{
+    // ...other
+    "prettier": "@anireact/prettier-config"
+}
 ```
 
 # License
