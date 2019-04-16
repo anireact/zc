@@ -1,17 +1,15 @@
-# babel-preset
+# @anireact/babel-preset
 
 > Babel preset.
 
 ```
-yarn add babel-preset
+yarn add -D @anireact/babel-preset
 ```
 
-```javascript
-// babel.config.js
+`babel.config.js`:
 
-module.exports = {
-    presets: ['@anireact/babel-preset'],
-};
+```javascript
+module.exports = { presets: ['@anireact'] };
 ```
 
 # License
