@@ -1,11 +1,15 @@
 {
     "author": "Marina Miyaoka <miyaokamarina@gmail.com> (https://twitter.com/miyaokamarina)",
     "bugs": "https://github.com/anireact/zc/issues?q=is:issue+label:@anireact/browserslist-config",
+    "dependencies": {},
     "description": "Browserslist config.",
+    "devDependencies": {},
     "homepage": "https://github.com/anireact/zc/tree/master/@anireact/browserslist-config",
     "license": "MIT",
     "main": "index.js",
     "name": "@anireact/browserslist-config",
+    "optionalDependencies": {},
+    "peerDependencies": {},
     "publishConfig": {
         "access": "public"
     },
