@@ -13,6 +13,8 @@
     "license": "MIT",
     "main": "dist/index.js",
     "name": "@anireact/example-babel",
+    "optionalDependencies": {},
+    "peerDependencies": {},
     "private": true,
     "repository": "anireact/zc",
     "scripts": {
