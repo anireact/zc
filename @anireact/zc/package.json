@@ -7,7 +7,7 @@
     "dependencies": {
         "@anireact/babel-preset": "^1.2.2",
         "@anireact/browserslist-config": "^1.2.2",
-        "@anireact/eslint-config": "^1.2.2",
+        "@anireact/eslint-config": "^1.2.5",
         "@anireact/husky": "^1.2.2",
         "@anireact/lerna": "^1.2.2",
         "@anireact/prettier-config": "^1.2.2",
@@ -61,5 +61,5 @@
         "access": "public"
     },
     "repository": "anireact/zc",
-    "version": "1.2.4"
+    "version": "1.2.5"
 }

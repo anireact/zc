@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.2.5](https://github.com/anireact/zc/compare/v1.2.4...v1.2.5) (2019-04-16)
+
+
+### Bug Fixes
+
+* **eslint-config:** Added `@anireact/eslint-plugin` dependency. ([cf21d8e](https://github.com/anireact/zc/commit/cf21d8e))
+
+
+
+
+
 ## [1.2.2](https://github.com/anireact/zc/compare/v1.2.1...v1.2.2) (2019-04-16)
 
 
