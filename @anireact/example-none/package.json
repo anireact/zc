@@ -3,7 +3,7 @@
     "bugs": "https://github.com/anireact/zc/issues?q=is:issue+label:@anireact/example-none",
     "description": "Example package without build step.",
     "devDependencies": {
-        "@anireact/zc": "^1.2.2"
+        "@anireact/zc": "^1.2.3"
     },
     "homepage": "https://github.com/anireact/zc/tree/master/@anireact/example-none",
     "license": "MIT",
@@ -11,5 +11,5 @@
     "name": "@anireact/example-none",
     "private": true,
     "repository": "anireact/zc",
-    "version": "1.2.2"
+    "version": "1.2.3"
 }
