@@ -15,6 +15,14 @@ yarn add -D @anireact/typescript
 }
 ```
 
+## Features
+
+-   Composite projects support.
+-   Incremental build support.
+-   Declarations only.
+-   Strict mode.
+-   No unused locals/parameters.
+
 # License
 
 MIT
