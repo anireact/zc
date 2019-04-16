@@ -2,14 +2,14 @@
     "author": "Marina Miyaoka <miyaokamarina@gmail.com> (https://twitter.com/miyaokamarina)",
     "bugs": "https://github.com/anireact/zc/issues?q=is:issue+label:@anireact/example-webpack",
     "dependencies": {
-        "@anireact/example-dependency": "^1.2.3",
-        "@anireact/example-rollup": "^1.2.3",
+        "@anireact/example-dependency": "^1.2.4",
+        "@anireact/example-rollup": "^1.2.4",
         "@babel/runtime-corejs3": "^7.4.3",
         "core-js": "^3.0.1"
     },
     "description": "Example application with Webpack build.",
     "devDependencies": {
-        "@anireact/zc": "^1.2.3"
+        "@anireact/zc": "^1.2.4"
     },
     "homepage": "https://github.com/anireact/zc/tree/master/@anireact/example-webpack",
     "license": "MIT",
@@ -20,7 +20,7 @@
     "scripts": {
         "prepublishOnly": "yarn --silent zc clean && yarn --silent zc build"
     },
-    "version": "1.2.3",
+    "version": "1.2.4",
     "zc": {
         "build": "webpack"
     }
