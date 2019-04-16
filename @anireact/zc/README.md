@@ -152,8 +152,8 @@ Package config:
 -   [husky](https://github.com/anireact/zc/tree/master/@anireact/husky).
 -   [commitlint](https://github.com/anireact/zc/tree/master/@anireact/husky#commitlint).
 -   [Lerna](https://github.com/anireact/zc/tree/master/@anireact/lerna).
--   [Prettier](https://github.com/anireact/zc/tree/master/@anireact/prettier).
--   [EditorConfig](https://github.com/anireact/zc/tree/master/@anireact/prettier#editorconfig).
+-   [Prettier](https://github.com/anireact/zc/tree/master/@anireact/prettier-config).
+-   [EditorConfig](https://github.com/anireact/zc/tree/master/@anireact/prettier-config#editorconfig).
 -   [TypeScript](https://github.com/anireact/zc/tree/master/@anireact/typescript).
 
 ## Dotfiles
