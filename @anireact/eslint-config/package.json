@@ -2,7 +2,7 @@
     "author": "Marina Miyaoka <miyaokamarina@gmail.com> (https://twitter.com/miyaokamarina)",
     "bugs": "https://github.com/anireact/zc/issues?q=is:issue+label:@anireact/eslint-config",
     "dependencies": {
-        "@anireact/prettier-config": "^1.2.0",
+        "@anireact/prettier-config": "^1.2.2",
         "@babel/core": "^7.4.3",
         "@typescript-eslint/eslint-plugin": "^1.6.0",
         "@typescript-eslint/eslint-plugin-tslint": "^1.6.0",
@@ -29,16 +29,13 @@
         "upath": "^1.1.2"
     },
     "description": "ESLint config.",
-    "devDependencies": {},
     "homepage": "https://github.com/anireact/zc/tree/master/@anireact/eslint-config",
     "license": "MIT",
     "main": "index.js",
     "name": "@anireact/eslint-config",
-    "optionalDependencies": {},
-    "peerDependencies": {},
     "publishConfig": {
         "access": "public"
     },
     "repository": "anireact/zc",
-    "version": "1.2.0"
+    "version": "1.2.2"
 }

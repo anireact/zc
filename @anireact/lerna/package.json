@@ -5,16 +5,13 @@
         "lerna": "^3.13.2"
     },
     "description": "Lerna config.",
-    "devDependencies": {},
     "homepage": "https://github.com/anireact/zc/tree/master/@anireact/lerna",
     "license": "MIT",
     "main": "index.js",
     "name": "@anireact/lerna",
-    "optionalDependencies": {},
-    "peerDependencies": {},
     "publishConfig": {
         "access": "public"
     },
     "repository": "anireact/zc",
-    "version": "1.2.0"
+    "version": "1.2.2"
 }

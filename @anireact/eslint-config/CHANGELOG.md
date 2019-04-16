@@ -3,6 +3,19 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.2.2](https://github.com/anireact/zc/compare/v1.2.1...v1.2.2) (2019-04-16)
+
+
+### Bug Fixes
+
+* **eslint-config:** Stricter TODO detection. ([877152a](https://github.com/anireact/zc/commit/877152a))
+* **eslint-config:** Updated docs. ([07fe17a](https://github.com/anireact/zc/commit/07fe17a))
+* **eslint-config:** Updated docs. ([8977dc1](https://github.com/anireact/zc/commit/8977dc1))
+
+
+
+
+
 # [1.2.0](https://github.com/anireact/zc/compare/v1.0.0...v1.2.0) (2019-04-15)
 
 
