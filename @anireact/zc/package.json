@@ -53,10 +53,13 @@
         "yarn": "^1.15.2"
     },
     "description": "Zero-config monorepo toolchain.",
+    "devDependencies": {},
     "homepage": "https://github.com/anireact/zc/tree/master/@anireact/zc",
     "license": "MIT",
     "main": "index.js",
     "name": "@anireact/zc",
+    "peerDependencies": {},
+    "optionalDependencies": {},
     "publishConfig": {
         "access": "public"
     },
