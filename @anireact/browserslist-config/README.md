@@ -12,6 +12,12 @@ yarn add -D @anireact/browserslist-config
 extends @anireact/browserslist-config
 ```
 
+## Browsers
+
+```
+> 0.1%
+```
+
 # License
 
 MIT
