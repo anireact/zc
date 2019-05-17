@@ -7,7 +7,7 @@
     },
     "description": "Another library with Rollup build.",
     "devDependencies": {
-        "@anireact/zc": "^1.2.5"
+        "@anireact/zc": "^1.2.6"
     },
     "homepage": "https://github.com/anireact/zc/tree/master/@anireact/example-dependency",
     "license": "MIT",
@@ -20,7 +20,7 @@
         "prepublishOnly": "yarn --silent zc clean && yarn --silent zc build"
     },
     "types": "dist/index.d.ts",
-    "version": "1.2.5",
+    "version": "1.2.6",
     "zc": {
         "build": "rollup"
     }

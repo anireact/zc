@@ -5,11 +5,11 @@
     },
     "bugs": "https://github.com/anireact/zc/issues?q=is:issue+label:@anireact/zc",
     "dependencies": {
-        "@anireact/babel-preset": "^1.2.2",
+        "@anireact/babel-preset": "^1.2.6",
         "@anireact/browserslist-config": "^1.2.2",
-        "@anireact/eslint-config": "^1.2.5",
-        "@anireact/husky": "^1.2.2",
-        "@anireact/lerna": "^1.2.2",
+        "@anireact/eslint-config": "^1.2.6",
+        "@anireact/husky": "^1.2.6",
+        "@anireact/lerna": "^1.2.6",
         "@anireact/prettier-config": "^1.2.2",
         "@anireact/typescript": "^1.2.2",
         "@babel/cli": "^7.4.4",
@@ -61,5 +61,5 @@
         "access": "public"
     },
     "repository": "anireact/zc",
-    "version": "1.2.5"
+    "version": "1.2.6"
 }
