@@ -3,7 +3,7 @@
     "bugs": "https://github.com/anireact/zc/issues?q=is:issue+label:@anireact/example-rollup",
     "dependencies": {
         "@anireact/example-dependency": "^1.2.5",
-        "@babel/runtime-corejs3": "^7.4.3",
+        "@babel/runtime-corejs3": "^7.4.4",
         "core-js": "^3.0.1"
     },
     "description": "Example library with Rollup build.",

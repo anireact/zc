@@ -2,7 +2,7 @@
     "author": "Marina Miyaoka <miyaokamarina@gmail.com> (https://twitter.com/miyaokamarina)",
     "bugs": "https://github.com/anireact/zc/issues?q=is:issue+label:@anireact/example-babel",
     "dependencies": {
-        "@babel/runtime-corejs3": "^7.4.3",
+        "@babel/runtime-corejs3": "^7.4.4",
         "core-js": "^3.0.1"
     },
     "description": "Example package with Babel CLI build.",

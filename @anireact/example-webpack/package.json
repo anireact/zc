@@ -4,7 +4,7 @@
     "dependencies": {
         "@anireact/example-dependency": "^1.2.5",
         "@anireact/example-rollup": "^1.2.5",
-        "@babel/runtime-corejs3": "^7.4.3",
+        "@babel/runtime-corejs3": "^7.4.4",
         "core-js": "^3.0.1"
     },
     "description": "Example application with Webpack build.",
