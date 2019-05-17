@@ -76,7 +76,7 @@ const rimraf = (path, options = {}) => {
     });
 };
 
-const stat = (path, options) => {
+const stat = (path, options = {}) => {
     return new Promise((resolve, reject) => {
         stat_(path, options, (error, stats) => {
             if (error) reject(error);
@@ -85,7 +85,7 @@ const stat = (path, options) => {
     });
 };
 
-const write = (to, data, options) => {
+const write = (to, data, options = {}) => {
     return new Promise((resolve, reject) => {
         write_(to, data, options, error => {
             if (error) reject(error);
