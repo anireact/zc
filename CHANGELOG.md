@@ -3,6 +3,22 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [1.3.0](https://github.com/anireact/zc/compare/v1.2.6...v1.3.0) (2019-05-19)
+
+
+### Bug Fixes
+
+* Removed `import/exports-last`. ([522d84f](https://github.com/anireact/zc/commit/522d84f))
+
+
+### Features
+
+* Dependencies upgraded. ([55f0940](https://github.com/anireact/zc/commit/55f0940))
+
+
+
+
+
 ## [1.2.6](https://github.com/anireact/zc/compare/v1.2.5...v1.2.6) (2019-05-17)
 
 
