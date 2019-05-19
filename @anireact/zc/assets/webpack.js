@@ -27,7 +27,7 @@ module.exports = async () => {
                 ...['fsevents', 'platform-folders'],
             ];
 
-            return native.includes(request) ? callback(`commonjs ${request}`) : callback();
+            return native.includes(request) ? callback(null, `commonjs ${request}`) : callback();
         },
         devtool: 'source-map',
         resolve: { extensions: ['.ts', '.tsx', '.js', '.jsx', '.json'] },
