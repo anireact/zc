@@ -18,26 +18,25 @@ module.exports = async () => {
         mode: process.env.NODE_ENV || 'production',
         target: 'web',
         context: path,
-        externals: {},
+        externals: (context, request, callback) => {
+            const native = [
+                ...['assert', 'async_hooks', 'child_process', 'cluster', 'crypto', 'dns', 'domain', 'events', 'fs'],
+                ...['http', 'http2', 'https', 'inspector', 'net', 'os', 'path', 'perf_hooks', 'process', 'punycode'],
+                ...['querystring', 'readline', 'repl', 'stream', 'string_decoder', 'tls', 'trace_events', 'tty'],
+                ...['dgram', 'udp4', 'udp6', 'url', 'util', 'v8', 'vm', 'worker_threads', 'zlib'],
+                ...['fsevents', 'platform-folders'],
+            ];
+
+            return native.includes(request) ? callback(`commonjs ${request}`) : callback();
+        },
         devtool: 'source-map',
         resolve: { extensions: ['.ts', '.tsx', '.js', '.jsx', '.json'] },
         output: { publicPath },
         module: {
             rules: [
-                {
-                    test: /\.[jt]sx?$/iu,
-                    use: ['source-map-loader'],
-                    enforce: 'pre',
-                },
-                {
-                    test: /\.[jt]sx?$/iu,
-                    exclude: /node_modules/iu,
-                    use: [{ loader: 'babel-loader', options: { cacheDirectory: true } }],
-                },
-                {
-                    test: /\.(?:png|jpe?g|gif|svgz?|ttf|otf|eot|woff2?)$/iu,
-                    use: [{ loader: 'file-loader', options: { name: '[sha512:hash:base58:8].[ext]' } }],
-                },
+                { test: /\.[jt]sx?$/iu, use: ['source-map-loader'], enforce: 'pre' },
+                { test: /\.[jt]sx?$/iu, exclude: /node_modules/iu, use: [{ loader: 'babel-loader' }] },
+                { test: /\.(?:png|jpe?g|gif|svgz?|ttf|otf|eot|woff2?)$/iu, use: [{ loader: 'file-loader' }] },
             ],
         },
         plugins: [new CompressionWebpackPlugin(), ...html],
