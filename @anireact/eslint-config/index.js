@@ -292,7 +292,6 @@ module.exports = {
         'import/no-extraneous-dependencies': error,
         'import/no-mutable-exports': error,
         'import/first': error,
-        'import/exports-last': error,
         'import/no-duplicates': error,
         'import/extensions': [
             error,
